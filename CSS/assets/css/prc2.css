@@ -1,0 +1,9 @@
+*{
+    text-align: center;
+}
+ul li {
+    background-color: lightgray;
+} 
+.aktif{
+    background-color:gray;
+}
