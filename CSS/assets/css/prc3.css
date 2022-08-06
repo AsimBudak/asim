@@ -1,0 +1,23 @@
+*{
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.ul.menu{
+    margin-left: 0;
+    margin-right: auto;
+}
+a.link:hover{
+    background-color: aquamarine;
+    color: white;
+}
+nav.menu{
+    background-color: gray;
+    width: 20%;
+   
+}
+
+a.link{
+    text-decoration: none;
+    color:black
+   
+}
+
