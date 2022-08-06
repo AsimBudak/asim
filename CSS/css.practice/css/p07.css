@@ -1,0 +1,31 @@
+body{
+    background-image: url(../img/pexels-gaspar-zaldo-11163123.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.aylar{
+    background-color:aqua ;
+    padding-bottom :1rem;
+}
+.mevsim{
+    background-color: red;
+    padding-bottom :1rem;
+}
+.gunler{
+    background-color: lightblue;
+    padding-bottom :1rem;
+}
+h1,h2{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 1rem;
+}
+section.container{
+    width: 30%;
+}
+
+
+ul li,ol li{
+    font-size: 1.3rem;
+}
+
