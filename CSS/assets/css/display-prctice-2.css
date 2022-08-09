@@ -1,0 +1,22 @@
+nav.menu{
+    display: inline-block;
+}
+nav.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px 30px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+.btn-menü{
+    background-color: greenyellow;
+    border: none;
+    padding: 10px;
+    color: antiquewhite;
+    display: block;
+}
+
+nav.menu:hover ul{
+display: inline-block;
+
+}

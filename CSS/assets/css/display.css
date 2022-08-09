@@ -1,0 +1,14 @@
+.inline{
+    background-color: aqua;
+}
+
+.block{
+    background-color: blue;
+}
+.in-bl{
+    background-color: yellow;
+    display: inline-block;
+}
+.hidden{
+    display: none;
+}

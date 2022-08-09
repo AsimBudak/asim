@@ -1,0 +1,25 @@
+nav.menu li{
+display: inline-block;
+background-color: blueviolet;
+padding: 10px 20px;
+margin-right: 20px;
+}
+nav.menu ul{
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+text-align: center;
+}
+nav.menu a{
+    color :aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: blueviolet;
+}
+
+nav.menu a:hover{
+    background-color: rgb(163, 99, 223);
+    color: bisque;
+}
+
