@@ -1,0 +1,23 @@
+.block-inline{
+    background-color: blue;
+    text-align: center;
+}
+
+.block-inline b{
+    background-color: aqua;
+   
+}
+
+
+.block-block{
+    margin-top: 50px;
+    background-color: blueviolet;
+   
+}
+
+.block-block div{
+    background-color: green;
+width: 100px;
+margin-right: auto;
+margin-left: auto;
+}
