@@ -1,0 +1,13 @@
+a{
+    color: green;
+}
+a:visited{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+
+}
+a:active{
+    background-color: brown;
+    color:aliceblue
+}
