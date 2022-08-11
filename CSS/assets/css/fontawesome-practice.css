@@ -1,0 +1,19 @@
+[type="checkbox"]{
+    display: none;
+}
+
+.custumCheckbox::before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color:#cccccc;
+    margin-right: 5px;
+}
+
+
+[type="checkbox"]:checked+.custumCheckbox::before{
+    background-color: red;
+    font: var(--fa-font-solid);
+    content: "\f00c";
+}
