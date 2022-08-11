@@ -1,0 +1,21 @@
+button:hover ~ .content{
+background-color: red;
+
+}
+
+.chk{
+    display: none;
+}
+
+.lbl-color{
+    background-color: blueviolet;
+}
+
+.chk:checked + .content{
+    background-color: blue;
+}
+
+.content{
+    height: 80vh;
+    background-color: aquamarine;
+}
