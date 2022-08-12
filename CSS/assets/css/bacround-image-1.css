@@ -1,0 +1,5 @@
+.banner{
+    height: 500px;
+    background-image: url(../img/bg.jpg);
+    border: 1px solid red;
+}
