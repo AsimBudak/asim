@@ -1,0 +1,176 @@
+:root {
+  --color1: #ebb211;
+  --color2: #04d5fa;
+  --color3: #7c8494;
+  --color4: rgb(206, 20, 101);
+}
+
+.views,
+.gallery,
+.appointment-form {
+  margin-bottom: 100px;
+}
+
+/* TOPBAR */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--color1);
+}
+.topbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+.topbar i {
+  color: var(--color2);
+}
+
+.topbar .social-links i {
+  font-size: 1.5rem;
+}
+
+/* NAVBAR */
+
+/* .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+} */
+.navbar {
+  font-size: 1.3rem;
+}
+.navbar ul a {
+  border-radius: 2rem;
+  padding: 5px 10px;
+}
+
+.navbar ul a:hover {
+  background-color: var(--color1);
+}
+
+@media (max-width: 570px) {
+  .navbar-brand img {
+    width: 250px;
+  }
+}
+
+/* CAROUSEL */
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 8rem;
+  right: auto;
+  text-align: left;
+  transform: translateY(-50%);
+  bottom: auto;
+  width: 40%;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  align-items: flex-end;
+  padding-bottom: 2rem;
+}
+.carousel-control-prev {
+  right: 3rem;
+  left: auto;
+}
+.carousel-caption h5 {
+  font-size: 2.5rem;
+  border-left: 1rem solid var(--color4);
+  padding-left: 0.5rem;
+  margin-bottom: 0;
+}
+.carousel-caption p {
+  font-size: 1.3rem;
+}
+
+/* WHY-US */
+.why-us {
+  position: relative;
+  top: -100px;
+  z-index: 2;
+  text-align: center;
+}
+.why-us i {
+  font-size: 3rem;
+  color: var(--color4);
+  padding: 1rem 0;
+}
+.why-us div[class^="col"]:first-child .card {
+  background-color: var(--color1);
+}
+.why-us .card-body:hover {
+  background-color: var(--color3);
+}
+/* VIEWS */
+.views {
+  text-align: center;
+  width: 90%;
+}
+.views i {
+  font-size: 3rem;
+  color: var(--color2);
+}
+.views h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color1);
+}
+/* GALLERY */
+.gallery img {
+  border-radius: 1rem;
+  transition: transform 0.5s;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+}
+.gallery div[class^="col"] {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+/* APPOINTMENT FORM */
+.appointment-form {
+  background-color: var(--color3);
+  padding: 3rem;
+}
+
+.appointment-form h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--color1);
+  padding: 3rem;
+}
+footer ul {
+  list-style: none;
+}
+footer .contact li {
+  margin-bottom: 1rem;
+}
+footer a {
+  text-decoration: none;
+  color: var(--color2);
+}
+footer a:hover {
+  color: var(--color4);
+}
+footer h3 {
+  color: var(--color4);
+}
+
+footer div[class^="col"]:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.contact i {
+  color: var(--color4);
+}
