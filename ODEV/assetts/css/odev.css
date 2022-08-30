@@ -1,0 +1,9 @@
+.disableInput{
+    background: none;
+    border:none;
+}
+
+.enableInput{
+    background: white ;
+    border: 1;
+}
