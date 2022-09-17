@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../JS/scrit.js" />
+  </head>
+  <body>
+    <input type="text" id="num1" />
+    <select id="islem">
+      <option value="toplam">+</option>
+      <option value="cikarma">-</option>
+      <option value="bolme">/</option>
+      <option value="carpma">*</option>
+    </select>
+    <input type="text" id="num2" name="num2" />
+    <button
+      onclick="hesapla(document.querySelector('#num1').value,document.querySelector('#num2').value,document.querySelector('#islem').value)"
+    >
+      hesapla
+    </button>
+    <h3 id="sonuc">....</h3>
+    <script src="script.js"></script>
+    <script>
+      function hesapla(num1, num2, islem) {
+        if (islem == "toplam") {
+          document.querySelector("#sonuc").innerText =
+            Number(num1) + Number(num2);
+        } else if (islem == "cikarma") {
+          document.querySelector("#sonuc").innerText =
+            Number(num1) - Number(num2);
+        } else if (islem == "bolme") {
+          document.querySelector("#sonuc").innerText =
+            Number(num1) / Number(num2);
+        } else if (islem == "carpma") {
+          document.querySelector("#sonuc").innerText =
+            Number(num1) * Number(num2);
+        }
+      }
+    </script>
+  </body>
+</html>
