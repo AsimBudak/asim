@@ -1,0 +1,23 @@
+h1{
+    font-style: italic;
+}
+.menu{
+    background-color: aqua;
+}
+.menu a{
+ margin-right:0.5rem;
+ font-size: 1.3rem;
+ text-decoration: none;
+}
+.icerik{
+    background-color: brown ;
+
+}
+.table h2{
+font-style: italic;
+
+}
+thead th{
+    text-align: center;
+    
+}

@@ -1,0 +1,16 @@
+.menu-container{
+    background-color: brown;
+    width: 250px;
+}
+.menu-container div{
+    text-align: center;
+    padding: 0.8rem;
+}
+.menu-container a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.menu-container .active{
+    background-color: blue;
+}
