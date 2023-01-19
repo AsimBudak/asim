@@ -1,0 +1,20 @@
+.container{
+    background-color: gray;
+    width: 50%;
+}
+h1{
+    color: red ;
+}
+img{
+    width: 100%;
+}
+.container p {
+    color: darkgray ;
+    font-size: 20px;
+}
+.container a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 1rem;
+    
+}
