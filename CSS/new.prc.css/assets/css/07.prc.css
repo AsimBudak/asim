@@ -1,0 +1,29 @@
+body{
+    background-image: url("../img/bg-login.jpg");   
+    background-position:  center;
+    background-size: cover;
+}
+section.container{
+    width: 30%;
+    padding: 1rem;
+}
+.aylar{
+    background-color: antiquewhite;
+    padding-bottom: 1rem; 
+}
+.mevsimler{
+    background-color: bisque;
+    padding-bottom: 1rem; 
+}
+.gunler{
+  background-color:lightblue;
+  padding-bottom: 1rem; 
+}
+h1,h2{
+    background-color: aqua;
+    text-align: center;
+    padding: 1rem;
+    }
+   ul li,ol li{
+    font-size: 1.3rem;   
+}
